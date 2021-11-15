@@ -874,7 +874,7 @@ code {
 	align-self: flex-start
 }
 
-.seriesDetailsRow h4 {
+.seriesDetailsRow h4,.seriesDetailsRow h3,.seriesDetailsRow h2 {
 	margin: 0;
 	padding: .5rem 0 0;
 	color: #fff;
@@ -882,7 +882,7 @@ code {
 	transition: .2s
 }
 
-.seriesDetailsRow h4:hover {
+.seriesDetailsRow h4:hover,.seriesDetailsRow h3:hover,.seriesDetailsRow h2:hover {
 	border-bottom: .2rem solid #df8549
 }
 
